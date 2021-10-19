@@ -14,7 +14,7 @@ var_non_rotational = 'on' # SSD
 Vagrant.configure("2") do |config|
   #config.vm.communicator = "winrm"
   if Vagrant.has_plugin?("vagrant-timezone")
-    config.timezone.value = "America/Toronto"
+    config.timezone.value = "Eastern Standard Time"
   end
  # Admin user name and password
  config.winrm.username = "vagrant"
