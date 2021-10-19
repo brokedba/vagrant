@@ -1,5 +1,5 @@
 shared:
-  box: Scofieldd/rhel8_ora
+  box: brokedba/rhel8_ora
   non_rotational: 'off'
 
 node1:
